@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 html,
 body,
@@ -104,9 +105,19 @@ nav,
 section {
   display: block;
 }
+
+
 body {
+  font-family: "Roboto";
+  background-color: #ECEFF1;
   line-height: 1;
+
 }
+
+.App{
+
+}
+
 ol,
 ul {
   list-style: none;
